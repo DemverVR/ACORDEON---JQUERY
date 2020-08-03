@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efefef;
+}
+
+.box-acordion {
+    max-width: 500px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.acordion {
+    display: block;
+    background-color: #2874A6;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 20px;
+    border-bottom: 1px solid #1f618D;
+}
+
+.activo,
+.acordion:hover {
+    background-color: #1f618D;
+}
+
+.contenido {
+    background-color: white;
+    padding: 10px 20px;
+    text-align: justify;
+    font-family: arial;
+    font-size: 17px;
+    display: none;
+}
